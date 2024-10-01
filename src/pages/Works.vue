@@ -10,6 +10,8 @@ export default {
     },
     methods: {
         getApi() {
+            // missing api
+
             axios.get(store.apiUrl + 'works').then(response => {
                 console.log(response.data);
             })
